@@ -1,0 +1,45 @@
+# dependencies
+/node_modules
+/.pnpm-store
+
+# next.js build output
+/.next/
+/out/
+
+# production / local build
+build
+dist
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env
+.env*.local
+!.env.example
+
+# vercel
+.vercel
+
+# typescript build info
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE / OS files
+.DS_Store
+*.pem
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea
+
+/.agents/
+/.zcode/
+.zcodeignore
+skills-lock.json
+/.kilo/
